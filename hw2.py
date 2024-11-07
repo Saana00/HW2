@@ -6,7 +6,7 @@ from sklearn.tree import DecisionTreeRegressor
 from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
 
 
-data_path = 'I:\\IOT\\HW2\\For Saana\\data.csv'
+data_path = 'I:\\IOT\\HW2\\For Saana\\data.csv'   #data file path
 data = pd.read_csv(data_path)
 
 
